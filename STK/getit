@@ -1,0 +1,3 @@
+cp /l/stk/src/$1.cpp .
+cp /l/stk/include/$1.h .
+

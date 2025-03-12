@@ -1,0 +1,65 @@
+ADSR.cpp:#include "ADSR.h"
+ADSR.h:#include "Generator.h"
+Bowed.cpp:#include "Bowed.h"
+Bowed.cpp:#include "SKINImsg.h"
+Bowed.h:#include "ADSR.h"
+Bowed.h:#include "BiQuad.h"
+Bowed.h:#include "BowTable.h"
+Bowed.h:#include "DelayL.h"
+Bowed.h:#include "Instrmnt.h"
+Bowed.h:#include "OnePole.h"
+Bowed.h:#include "SineWave.h"
+Brass.cpp:#include "Brass.h"
+Brass.cpp:#include "SKINImsg.h"
+Brass.cpp:#include <cmath>
+Brass.h:#include "ADSR.h"
+Brass.h:#include "BiQuad.h"
+Brass.h:#include "DelayA.h"
+Brass.h:#include "Instrmnt.h"
+Brass.h:#include "PoleZero.h"
+Brass.h:#include "SineWave.h"
+Clarinet.cpp:#include "Clarinet.h"
+Clarinet.cpp:#include "SKINImsg.h"
+Clarinet.h:#include "DelayL.h"
+Clarinet.h:#include "Envelope.h"
+Clarinet.h:#include "Instrmnt.h"
+Clarinet.h:#include "Noise.h"
+Clarinet.h:#include "OneZero.h"
+Clarinet.h:#include "ReedTable.h"
+Clarinet.h:#include "SineWave.h"
+Delay.cpp:#include "Delay.h"
+Delay.h:#include "Filter.h"
+DelayL.cpp:#include "DelayL.h"
+DelayL.h:#include "Filter.h"
+Filter.h:#include "Stk.h"
+Filter.h:#include <cmath>
+Filter.h:#include <vector>
+Flute.cpp:#include "Flute.h"
+Flute.cpp:#include "SKINImsg.h"
+Flute.h:#include "ADSR.h"
+Flute.h:#include "DelayL.h"
+Flute.h:#include "Instrmnt.h"
+Flute.h:#include "JetTable.h"
+Flute.h:#include "Noise.h"
+Flute.h:#include "OnePole.h"
+Flute.h:#include "PoleZero.h"
+Flute.h:#include "SineWave.h"
+Instrmnt.h:#include "Stk.h"
+Noise.cpp:#include "Noise.h"
+Noise.cpp:#include <time.h>
+Noise.h:#include "Generator.h"
+Noise.h:#include <stdlib.h>
+OnePole.cpp:#include "OnePole.h"
+OnePole.h:#include "Filter.h"
+PoleZero.cpp:#include "PoleZero.h"
+PoleZero.h:#include "Filter.h"
+ReedTable.h:#include "Function.h"
+SineWave.cpp:#include "SineWave.h"
+SineWave.cpp:#include <cmath>
+SineWave.h:#include "Generator.h"
+cpit:cp /l/stk/include/Bowed.h .
+cpit:cp /l/stk/include/Brass.h .
+cpit:cp /l/stk/include/Clarinet.h .
+cpit:cp /l/stk/include/Delay.h .
+cpit:cp /l/stk/include/Flute.h .
+getit:cp /l/stk/include/$1.h .
