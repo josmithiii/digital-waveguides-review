@@ -1,5 +1,0 @@
-cp /l/stk/include/Brass.h .
-cp /l/stk/include/Bowed.h .
-cp /l/stk/include/Clarinet.h .
-cp /l/stk/include/Flute.h .
-cp /l/stk/include/Delay.h .
